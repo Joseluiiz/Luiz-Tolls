@@ -1,0 +1,100 @@
+.bg-coral{
+    background-color: #09040f;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);
+    width: 100%;
+    color: #ffff;
+}
+.logo{
+    margin-left: 4vw;
+
+}
+.navbar{
+    margin-top: 5vh;
+    padding-bottom: 25vh;
+    
+}
+.nav-link{
+    text-decoration: none;
+    list-style-type:none;
+    color:#ffff;
+    font-family: work sans,sans-serif;
+}
+ul{
+   margin-left: 35vw;
+}
+li{
+    margin-right:32px ;
+}
+
+h1{
+    font-family: "Lexend Tera", sans-serif;
+    font-size: 50px;
+    margin-top: -100px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.nav-link:hover{
+    color: #f29459;
+}
+
+#espaco{
+    padding-top: 18vh ;
+    font-size: 13px;
+    color: #d73802;
+    font-family: work sans,sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bloco{
+    background-color: #181628;
+    padding: 32px;
+    border: 1px solid #28263a;
+    border-radius: 8px; 
+}
+.circo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+.emoji{
+    font-size: 32px;
+    line-height: 32px;
+    cursor: default;
+}
+
+p{
+    font-family: work sans,sans-serif;
+    color: #ff9659;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 500;
+
+}
+
+#button-Preco{
+    min-width: 160px;
+    margin-right: 24px;
+    margin-left: 0;
+    padding: 16px 24px;
+    text-align: center;
+}
+#button-Preco:hover{
+    background-color: #ee0c0c;
+  box-shadow: 0 5px 10px 0 rgba(106, 89, 255, 0.2);
+  transform: translate(0, -2px);
+  transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+    box-shadow 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+    -webkit-transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
